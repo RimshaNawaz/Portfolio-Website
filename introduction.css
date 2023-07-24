@@ -1,0 +1,49 @@
+#coding{
+    display: none;
+}
+#introname{
+    margin-left: -140px;
+    margin-top: 2900px;
+    color: brown;
+    font-size: 4rem;
+}
+.website{
+    margin-left:-210px;
+    margin-top: -50px;
+    color:brown;
+    font-size: 7rem;
+}
+.major{
+  width: auto;
+  height: auto;
+}.professsion{
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 5rem;
+  color:brown;
+  
+}
+#grid{
+  width: 100px;
+  height: 70px;
+}
+.arrowitem::before{
+  margin-top: 120px;
+  margin-left: -140px;
+}
+@media screen and (max-width: 300px) {
+  .website{
+      font-size: 5rem;
+  }
+  #introname{
+    margin-top: 1800px;
+    font-size: 3rem;
+  }
+  .professsion{
+    font-size: 3rem;
+  }
+  #grid{
+    width: 100px;
+    height: 70px;
+  }
+}
